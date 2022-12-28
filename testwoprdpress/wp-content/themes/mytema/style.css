@@ -1,0 +1,329 @@
+/**
+ * Theme Name:  Первая тема
+ * Description: обучение по первой теме
+ *
+ * Theme URI:   http://cirkunova.wsp24.ru
+ * Author:      Циркунова Наталья
+ * Author URI:  http://cirkunova.wsp24.ru
+ *
+ *
+ * License:     Лицензия. Пр: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Version:     1.0
+ */
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?d84ejq');
+    src:  url('fonts/icomoon.eot?d84ejq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?d84ejq') format('truetype'),
+    url('fonts/icomoon.woff?d84ejq') format('woff'),
+    url('fonts/icomoon.svg?d84ejq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 12px;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram1:before {
+    content: "\e900";
+    color: #e4405f;
+}
+.icon-facebook:before {
+    content: "\e901";
+    color: #1877f2;
+}
+.icon-vk:before {
+    content: "\e902";
+    color: #4680c2;
+}
+.icon-twitter:before {
+    content: "\e903";
+    color: #1da1f2;
+}
+
+
+body {
+    color: #8f8f8f;
+    font: 12px Tahoma, sans-serif;
+    background: #f8f8f8 url(images/bg.png);
+    border-top: 5px solid #7e7e7e;
+    margin: 0;
+}
+
+img {
+    border: 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    background-color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    height: 30px;
+    color: #b2b2b2;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.button {
+    color: #fff;
+    background-color: #29c5e6;
+    border: none;
+    height: 32px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image {
+    border: 1px solid #fff;
+    outline: 1px solid #c9c9c9;
+}
+
+figure img {
+    display: block;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.main-heading {
+    background: transparent url(images/h1-bg.png);
+    margin: 30px 0;
+    padding-left: 20px;
+}
+
+.main-heading h1 {
+    display: inline-block;
+    color: #7e7e7e;
+    font: 40px/40px 'Oswald', sans-serif;
+    background: url(images/bg.png);
+    margin: 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+aside {
+    float: left;
+    width: 250px;
+}
+
+aside + section {
+    margin-left: 280px;
+    padding-bottom: 50px;
+}
+
+footer {
+    clear: both;
+    background: #7e7e7e;
+    color: #dbdbdb;
+    font-size: 11px;
+}
+
+
+.main-navigation {
+    background: #f3f3f3;
+    border: 1px solid #e7e7e7;
+}
+
+.top-menu {
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 0;
+    text-transform: uppercase;
+    list-style-position: inside;
+    font: 14px 'Oswald', sans-serif;
+}
+
+.top-menu {
+   background: rgba(92, 226, 239, 0.76);
+}
+
+.top-menu a {
+    color: #b2b2b2;
+    text-decoration: none;
+}
+
+.top-menu li.current_page_item a {
+    color: #fff;
+}
+.search-form {
+    float: right;
+}
+.input{
+    background: rgba(184, 244, 250, 0.32);
+    border: 2px double rgba(86, 219, 232, 0.26);
+}
+.button{
+    background: rgba(92, 226, 239, 0.98);
+    border: 2px double rgba(86, 219, 232, 0.26);
+}
+.logo{
+    width: 120px;
+    height: 90px;
+}
+.footer-content {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px 0;
+    height: 90px;
+}
+
+.footer-heading {
+    font: 14px 'Oswald', sans-serif;
+    color: #fff;
+    border-bottom: 1px solid #919191;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #dbdbdb;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.twitter-time {
+    color: #b4aeae;
+}
+
+.twitter {
+    float: left;
+    width: 300px;
+}
+
+.twitter p {
+    padding-right: 15px;
+}
+
+.sitemap {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    padding-right: 15px;
+}
+
+.sitemap .column {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.sitemap .column.first {
+    margin-left: 0;
+}
+
+.sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.sitemap a:hover {
+    text-decoration: underline;
+}
+
+.social {
+    float: left;
+    margin-left: 20px;
+    width: 130px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    background: url(images/social.png) no-repeat;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icon-small  {
+    width: 16px;
+    height: 16px;
+    background: url(images/social-small.png) no-repeat;
+    display: inline-block;
+    margin: 5px 6px 0 0;
+}
+
+.twitter-icon {
+    background-position: 0 0;
+}
+
+.facebook-icon {
+    background-position: -30px 0;
+}
+
+.google-plus-icon {
+    background-position: -60px 0;
+}
+
+.vimeo-icon {
+    background-position: 0 0;
+}
+
+.youtube-icon {
+    background-position: -16px 0;
+}
+
+.flickr-icon {
+    background-position: -32px 0;
+}
+
+.instagram-icon {
+    background-position: -48px 0;
+}
+
+.rss-icon {
+    background-position: -64px 0;
+}
+
+.footer-logo {
+    float: right;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: right;
+}
